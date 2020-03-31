@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6073d54-a5d9-4396-8a32-8c0a81a41a04" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/shared/_user_info.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,11 +302,11 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="525" y="279" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1585673284668" />
-    <state width="516" height="436" key="SwitcherDM" timestamp="1585669910813">
+    <state width="516" height="436" key="SwitcherDM" timestamp="1585675649617">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="516" height="445" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1585657793051" />
-    <state width="516" height="436" key="SwitcherDM/0.23.1920.1057@0.23.1920.1057" timestamp="1585669910813" />
+    <state width="516" height="436" key="SwitcherDM/0.23.1920.1057@0.23.1920.1057" timestamp="1585675649617" />
     <state x="100" y="123" width="947" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585661042706">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
