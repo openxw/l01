@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6073d54-a5d9-4396-8a32-8c0a81a41a04" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/shared/_message.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585676547767</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="完成用户注册功能">
+      <created>1585677087080</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585677087080</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,13 +319,14 @@
     <MESSAGE value="用户注册表单" />
     <MESSAGE value="增加 CSRF 验证" />
     <MESSAGE value="中文的错误提示信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="中文的错误提示信息" />
+    <MESSAGE value="完成用户注册功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成用户注册功能" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="104" key="CommitChangelistDialog2" timestamp="1585676547531">
+    <state x="182" y="104" key="CommitChangelistDialog2" timestamp="1585677086955">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="182" y="104" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1585676547531" />
+    <state x="182" y="104" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1585677086955" />
     <state x="748" y="302" key="FileChooserDialogImpl" timestamp="1585654955549">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
