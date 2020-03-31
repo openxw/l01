@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6073d54-a5d9-4396-8a32-8c0a81a41a04" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/shared/_errors.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585675777862</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="增加 CSRF 验证">
+      <created>1585676114882</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585676114882</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,13 +303,14 @@
     <MESSAGE value="用户注册页面" />
     <MESSAGE value="用户显示页面" />
     <MESSAGE value="用户注册表单" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户注册表单" />
+    <MESSAGE value="增加 CSRF 验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加 CSRF 验证" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="104" key="CommitChangelistDialog2" timestamp="1585675777735">
+    <state x="182" y="104" key="CommitChangelistDialog2" timestamp="1585676114742">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="182" y="104" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1585675777735" />
+    <state x="182" y="104" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1585676114742" />
     <state x="748" y="302" key="FileChooserDialogImpl" timestamp="1585654955549">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -336,10 +345,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="990" y="532" width="707" height="293" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1585665555597" />
-    <state x="444" y="358" width="670" height="662" key="search.everywhere.popup" timestamp="1585672673714">
+    <state x="444" y="358" width="670" height="662" key="search.everywhere.popup" timestamp="1585676288362">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1010" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1585657810801" />
-    <state x="444" y="358" width="670" height="662" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1585672673714" />
+    <state x="444" y="358" width="670" height="662" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1585676288362" />
   </component>
 </project>
