@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6073d54-a5d9-4396-8a32-8c0a81a41a04" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/shared/_user_info.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585670155503</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="用户显示页面">
+      <created>1585675688992</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585675688992</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,13 +285,14 @@
     <MESSAGE value="切割头部和尾部子视图" />
     <MESSAGE value="命名路由" />
     <MESSAGE value="用户注册页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户注册页面" />
+    <MESSAGE value="用户显示页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户显示页面" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="104" key="CommitChangelistDialog2" timestamp="1585670254787">
+    <state x="182" y="104" key="CommitChangelistDialog2" timestamp="1585675688839">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="182" y="104" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1585670254787" />
+    <state x="182" y="104" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1585675688839" />
     <state x="748" y="302" key="FileChooserDialogImpl" timestamp="1585654955549">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
