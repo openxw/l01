@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c6073d54-a5d9-4396-8a32-8c0a81a41a04" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,11 @@
     </execution>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="openxw &lt;openxw@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -123,9 +129,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ZtEH8qPPHZPNn03udL1FibRAml" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="添加" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -136,6 +140,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -162,7 +167,8 @@
       <workItem from="1585653704949" duration="32000" />
       <workItem from="1585654156958" duration="801000" />
       <workItem from="1585655206477" duration="326000" />
-      <workItem from="1585655779541" duration="5571000" />
+      <workItem from="1585655779541" duration="7626000" />
+      <workItem from="1585666919283" duration="1245000" />
     </task>
     <task id="LOCAL-00001" summary="静态文件浏览器缓存问">
       <created>1585664284112</created>
@@ -171,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585664284112</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="切割头部和尾部子视图">
+      <created>1585664664154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585664664154</updated>
+    </task>
+    <task id="LOCAL-00003" summary="切割头部和尾部子视图">
+      <created>1585664749661</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585664749661</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +202,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -192,17 +214,22 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="静态文件浏览器缓存问" />
-    <option name="LAST_COMMIT_MESSAGE" value="静态文件浏览器缓存问" />
+    <MESSAGE value="切割头部和尾部子视图" />
+    <option name="LAST_COMMIT_MESSAGE" value="切割头部和尾部子视图" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="151" key="CommitChangelistDialog2" timestamp="1585664664020">
+    <state x="182" y="151" key="CommitChangelistDialog2" timestamp="1585664749546">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="182" y="151" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1585664664020" />
+    <state x="182" y="151" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1585664749546" />
     <state x="748" y="302" key="FileChooserDialogImpl" timestamp="1585654955549">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="748" y="302" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1585654955549" />
+    <state x="756" y="268" key="SettingsEditor" timestamp="1585667687374">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="756" y="268" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1585667687374" />
     <state width="516" height="436" key="SwitcherDM" timestamp="1585664488061">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -220,10 +247,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="626" y="297" width="668" height="486" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1585655030777" />
-    <state x="444" y="358" width="670" height="662" key="search.everywhere.popup" timestamp="1585661504925">
+    <state x="990" y="532" width="707" height="293" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1585665555597">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="990" y="532" width="707" height="293" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1585665555597" />
+    <state x="444" y="358" width="670" height="662" key="search.everywhere.popup" timestamp="1585665051418">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1010" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1585657810801" />
-    <state x="444" y="358" width="670" height="662" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1585661504925" />
+    <state x="444" y="358" width="670" height="662" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1585665051418" />
   </component>
 </project>
