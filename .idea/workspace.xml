@@ -243,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585677087080</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="完成用户注册功能">
+      <created>1585677201682</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585677201682</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,10 +330,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="完成用户注册功能" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="104" key="CommitChangelistDialog2" timestamp="1585677086955">
+    <state x="182" y="104" key="CommitChangelistDialog2" timestamp="1585677201590">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="182" y="104" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1585677086955" />
+    <state x="182" y="104" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1585677201590" />
     <state x="748" y="302" key="FileChooserDialogImpl" timestamp="1585654955549">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
