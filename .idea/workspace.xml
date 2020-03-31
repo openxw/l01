@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6073d54-a5d9-4396-8a32-8c0a81a41a04" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/alan.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +141,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -173,7 +169,7 @@
       <workItem from="1585654156958" duration="801000" />
       <workItem from="1585655206477" duration="326000" />
       <workItem from="1585655779541" duration="7626000" />
-      <workItem from="1585666919283" duration="2913000" />
+      <workItem from="1585666919283" duration="3135000" />
     </task>
     <task id="LOCAL-00001" summary="静态文件浏览器缓存问">
       <created>1585664284112</created>
@@ -203,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585668336230</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="用户注册页面">
+      <created>1585670155503</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585670155503</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,21 +231,26 @@
     <MESSAGE value="静态文件浏览器缓存问" />
     <MESSAGE value="切割头部和尾部子视图" />
     <MESSAGE value="命名路由" />
-    <option name="LAST_COMMIT_MESSAGE" value="命名路由" />
+    <MESSAGE value="用户注册页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户注册页面" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="104" key="CommitChangelistDialog2" timestamp="1585668336065">
+    <state x="182" y="104" key="CommitChangelistDialog2" timestamp="1585670155378">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="182" y="104" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1585668336065" />
+    <state x="182" y="104" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1585670155378" />
     <state x="748" y="302" key="FileChooserDialogImpl" timestamp="1585654955549">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="748" y="302" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1585654955549" />
-    <state x="756" y="268" key="SettingsEditor" timestamp="1585669825591">
+    <state x="161" y="293" key="IDE.errors.dialog" timestamp="1585670181074">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="756" y="268" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1585669825591" />
+    <state x="161" y="293" key="IDE.errors.dialog/0.23.1920.1057@0.23.1920.1057" timestamp="1585670181074" />
+    <state x="756" y="268" key="SettingsEditor" timestamp="1585670243574">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="756" y="268" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1585670243574" />
     <state width="516" height="436" key="SwitcherDM" timestamp="1585669910813">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
