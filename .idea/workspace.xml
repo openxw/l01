@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6073d54-a5d9-4396-8a32-8c0a81a41a04" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/shared/_errors.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shared/_message.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +126,8 @@
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper" />
       <path value="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/caouecs/laravel-lang" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/laravel-lang" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZtEH8qPPHZPNn03udL1FibRAml" />
@@ -229,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585676114882</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="中文的错误提示信息">
+      <created>1585676547767</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585676547767</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,13 +313,14 @@
     <MESSAGE value="用户显示页面" />
     <MESSAGE value="用户注册表单" />
     <MESSAGE value="增加 CSRF 验证" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加 CSRF 验证" />
+    <MESSAGE value="中文的错误提示信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="中文的错误提示信息" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="104" key="CommitChangelistDialog2" timestamp="1585676114742">
+    <state x="182" y="104" key="CommitChangelistDialog2" timestamp="1585676547531">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="182" y="104" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1585676114742" />
+    <state x="182" y="104" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1585676547531" />
     <state x="748" y="302" key="FileChooserDialogImpl" timestamp="1585654955549">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -323,11 +333,11 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="525" y="279" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1585673284668" />
-    <state width="516" height="436" key="SwitcherDM" timestamp="1585675793705">
+    <state width="516" height="436" key="SwitcherDM" timestamp="1585676827497">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="516" height="445" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1585657793051" />
-    <state width="516" height="436" key="SwitcherDM/0.23.1920.1057@0.23.1920.1057" timestamp="1585675793705" />
+    <state width="516" height="436" key="SwitcherDM/0.23.1920.1057@0.23.1920.1057" timestamp="1585676827497" />
     <state x="100" y="123" width="947" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585661042706">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
